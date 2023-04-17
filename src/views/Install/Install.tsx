@@ -3,7 +3,7 @@ import { Link, List, ListItem, ListItemText, Typography } from '@mui/material'
 function Install() {
   return (
     <div style={{ display: 'flex', flexDirection: 'column', flex: 1, alignItems: 'center' }}>
-      <div style={{display: 'flex', flexDirection: 'column', maxWidth: '700px', marginTop: '20px'}}>
+      <div style={{display: 'flex', flexDirection: 'column', maxWidth: '700px', margin: '10px 20px 10px 20px'}}>
         <Typography variant='h4' gutterBottom>Installing Datamelt</Typography>
         <Typography variant='body1' paragraph>Datamelt is an open-source software package that can be installed on
           Windows, Mac OS X, and Linux operating systems. Here's how to install it:</Typography>

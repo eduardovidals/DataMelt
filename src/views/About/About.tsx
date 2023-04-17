@@ -3,7 +3,7 @@ import { Typography } from '@mui/material'
 function About() {
   return (
     <div style={{ display: 'flex', flexDirection: 'column', flex: 1, alignItems: 'center' }}>
-      <div style={{ display: 'flex', flexDirection: 'column', maxWidth: '700px', marginTop: '20px' }}>
+      <div style={{ display: 'flex', flexDirection: 'column', maxWidth: '700px', margin: '10px 20px 10px 20px' }}>
         <Typography variant='h4' gutterBottom>About Datamelt</Typography>
         <Typography variant='body1' paragraph>Datamelt is an open-source software package that provides a powerful
           computational environment for scientific computing, data analysis, and data visualization. It was created by a
